@@ -1,31 +1,13 @@
-.large-gbook {
-    position: relative;
+.page-section-be-part {
+    background: linear-gradient(to right, #007fba, #02368d);
+    height: 162px;
+    text-align: center;
+    overflow: auto;
+}
 
-    &__text-content {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    &__title {
-        font-weight: 300;
-        color: $mainWhite;
-        font-size: 2.75rem;
-    }
-
-    &__subtitle {
-        color: $mainWhite;
-        font-size: 1.5rem;
-        font-weight: 300;
-        max-width: 51.625rem;
-        margin: 0 auto;
-    }
-
+.be-part {
     &__email {
-        margin-top: 3.05625rem;
+        margin-top: 1.5rem;
 
         &__heading {
             color: $mainWhite;
@@ -53,4 +35,5 @@
             cursor: pointer;
         }
     }
+
 }

@@ -429,3 +429,61 @@ img {
             margin-left: -11.25rem;
             cursor: pointer;
         }
+
+.page-section-be-part {
+    background: linear-gradient(to right, #007fba, #02368d);
+    height: 162px;
+    text-align: center;
+    overflow: auto;
+}
+
+.be-part__email {
+        margin-top: 1.5rem;
+    }
+
+.be-part__email__heading {
+            color: #fff;
+        }
+
+.be-part__email__box {
+            width: 25.0625rem;
+            border-radius: 100px;
+            border: solid 1px #fff;
+            height: 3.125rem;
+            background-color:transparent;
+            color: #fff;
+        }
+
+.be-part__email__box::-webkit-input-placeholder {
+                color: #fff;
+                font-size: 1.125rem;
+                padding-left: 1.25rem;
+                opacity: 0.5;
+            }
+
+.be-part__email__box:-ms-input-placeholder {
+                color: #fff;
+                font-size: 1.125rem;
+                padding-left: 1.25rem;
+                opacity: 0.5;
+            }
+
+.be-part__email__box::-ms-input-placeholder {
+                color: #fff;
+                font-size: 1.125rem;
+                padding-left: 1.25rem;
+                opacity: 0.5;
+            }
+
+.be-part__email__box::placeholder {
+                color: #fff;
+                font-size: 1.125rem;
+                padding-left: 1.25rem;
+                opacity: 0.5;
+            }
+
+.be-part__email__button {
+            margin-bottom: -0.9rem;
+            margin-left: -11.25rem;
+            cursor: pointer;
+        }

@@ -7,8 +7,8 @@
     </defs>
     <g fill="none" fill-rule="evenodd">
         <rect width="168" height="40" fill="url(#a)" rx="20"/>
-        <text fill="#FFF" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400">
-            <tspan x="70.501" y="25">Sent</tspan>
+        <text fill="#FFF" font-family="Roboto" font-size="18" font-weight="400">
+            <tspan x="70.501" y="25">Send</tspan>
         </text>
     </g>
 </svg>
