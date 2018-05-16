@@ -1,6 +1,6 @@
 .page-section-be-part {
     background: linear-gradient(to right, #007fba, #02368d);
-    height: 162px;
+    height: 10.125rem;
     text-align: center;
     overflow: auto;
 }
@@ -13,27 +13,8 @@
             color: $mainWhite;
         }
 
-        &__box {
-            width: 25.0625rem;
-            border-radius: 100px;
-            border: solid 1px $mainWhite;
-            height: 3.125rem;
-            background-color:transparent;
-            color: $mainWhite;
-
-            &::placeholder {
-                color: $mainWhite;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
-        }
-
-        &__button {
-            margin-bottom: -0.9rem;
-            margin-left: -11.25rem;
-            cursor: pointer;
-        }
+        @mixin inputBox & {}
+        @mixin inputBoxButton & { }
     }
 
 }

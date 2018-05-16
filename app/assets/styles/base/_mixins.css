@@ -1,0 +1,45 @@
+@define-mixin atSmall {
+    @media (min-width: 530px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (min-width: 800px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media (min-width: 1290px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin inputBox $sectionType {
+    $(sectionType)__box {
+        width: 25.0625rem;
+        border-radius: 100px;
+        border: solid 1px $mainWhite;
+        height: 3.125rem;
+        background-color:transparent;
+        color: $mainWhite;
+        @mixin-content;
+
+        &::placeholder {
+            color: $mainWhite;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
+    }
+}
+
+@define-mixin inputBoxButton $sectionType {
+    $(sectionType)__button {
+        margin-bottom: -0.9rem;
+        margin-left: -11.25rem;
+        cursor: pointer;
+        @mixin-content;
+    }
+}

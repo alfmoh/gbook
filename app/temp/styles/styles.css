@@ -368,7 +368,28 @@ img {
 .large-gbook__title {
         font-weight: 300;
         color: #fff;
-        font-size: 2.75rem;
+        font-size: 1.5rem;
+    }
+
+@media (min-width: 530px) {
+
+.large-gbook__title {
+            font-size: 2rem
+    }
+    }
+
+@media (min-width: 800px) {
+
+.large-gbook__title {
+            font-size: 2.5rem
+    }
+    }
+
+@media (min-width: 1290px) {
+
+.large-gbook__title {
+            font-size: 2.75rem
+    }
     }
 
 .large-gbook__subtitle {
@@ -388,51 +409,51 @@ img {
         }
 
 .large-gbook__email__box {
-            width: 25.0625rem;
-            border-radius: 100px;
-            border: solid 1px #fff;
-            height: 3.125rem;
-            background-color:transparent;
-            color: #fff;
-        }
+        width: 25.0625rem;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        height: 3.125rem;
+        background-color:transparent;
+        color: #fff;
+    }
 
 .large-gbook__email__box::-webkit-input-placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .large-gbook__email__box:-ms-input-placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .large-gbook__email__box::-ms-input-placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .large-gbook__email__box::placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .large-gbook__email__button {
-            margin-bottom: -0.9rem;
-            margin-left: -11.25rem;
-            cursor: pointer;
-        }
+        margin-bottom: -0.9rem;
+        margin-left: -11.25rem;
+        cursor: pointer;
+    }
 
 .page-section-be-part {
     background: linear-gradient(to right, #007fba, #02368d);
-    height: 162px;
+    height: 10.125rem;
     text-align: center;
     overflow: auto;
 }
@@ -446,44 +467,44 @@ img {
         }
 
 .be-part__email__box {
-            width: 25.0625rem;
-            border-radius: 100px;
-            border: solid 1px #fff;
-            height: 3.125rem;
-            background-color:transparent;
-            color: #fff;
-        }
+        width: 25.0625rem;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        height: 3.125rem;
+        background-color:transparent;
+        color: #fff;
+    }
 
 .be-part__email__box::-webkit-input-placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .be-part__email__box:-ms-input-placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .be-part__email__box::-ms-input-placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .be-part__email__box::placeholder {
-                color: #fff;
-                font-size: 1.125rem;
-                padding-left: 1.25rem;
-                opacity: 0.5;
-            }
+            color: #fff;
+            font-size: 1.125rem;
+            padding-left: 1.25rem;
+            opacity: 0.5;
+        }
 
 .be-part__email__button {
-            margin-bottom: -0.9rem;
-            margin-left: -11.25rem;
-            cursor: pointer;
-        }
+        margin-bottom: -0.9rem;
+        margin-left: -11.25rem;
+        cursor: pointer;
+    }
