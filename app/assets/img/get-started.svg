@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="40" viewBox="0 0 168 40">
+    <defs>
+        <linearGradient id="a" x1="100%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#2977FC"/>
+            <stop offset="100%" stop-color="#27BBFF"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="168" height="40" fill="url(#a)" rx="20"/>
+        <text fill="#FFF" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400">
+            <tspan x="70.501" y="25">Sent</tspan>
+        </text>
+    </g>
+</svg>
