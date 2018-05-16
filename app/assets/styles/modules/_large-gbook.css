@@ -1,12 +1,56 @@
 .large-gbook {
     position: relative;
-}
 
-.large-gbook__text-content {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    width: 50%;
-    text-align: center;
+    &__text-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__title {
+        font-weight: 300;
+        color: #fff;
+        font-size: 2.75rem;
+    }
+
+    &__subtitle {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 300;
+        max-width: 51.625rem;
+        margin: 0 auto;
+    }
+
+    &__email {
+        margin-top: 3.05625rem;
+
+        &__heading {
+            color: #fff;
+        }
+
+        &__box {
+            width: 25.0625rem;
+            border-radius: 100px;
+            border: solid 1px #fff;
+            height: 3.125rem;
+            background-color:transparent;
+            color: #fff;
+
+            &::placeholder {
+                color: #fff;
+                font-size: 1.125rem;
+                padding-left: 1.25rem;
+                opacity: 0.5;
+            }
+        }
+
+        &__button {
+            margin-bottom: -0.9rem;
+            margin-left: -11.25rem;
+            cursor: pointer;
+        }
+    }
 }
