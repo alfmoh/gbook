@@ -1,0 +1,54 @@
+.s-header {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    color: $mainWhite;
+    align-items: center;
+    /* background-color: rgba(0, 127, 186, 0.21); */
+
+    &__logo {
+        font-weight: bold;
+        margin-left: 70px;
+        font-size: 28px;
+    }
+    
+    &-nav {
+        flex: 1;
+    }
+
+    &-nav__list {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        flex-flow: wrap;
+
+        &__item {
+            margin: 0 20px;
+            border: solid rgba(0,0,0,0);
+            padding: 5px;
+
+            &-wp {
+                border: solid;
+                padding: 10px 20px;
+                border-radius: 25px;
+                border-width: 1px;
+            }
+
+            &-pre {
+                border: solid;
+                padding: 10px 20px;
+                border-radius: 25px;
+                border-width: 1px;
+            }
+
+            &-en {
+                border: solid;
+                padding: 10px 20px;
+                border-radius: 10px;
+                border-width: 1px;
+            }
+        }
+    }
+}
