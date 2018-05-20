@@ -1,0 +1,27 @@
+.structure {
+    background: url("/assets/img/group-9.png") no-repeat center;
+    background-size: cover;
+    height:100vh;
+    color: $mainWhite;
+
+    &-content {
+        padding-top:10%;
+        padding-left: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.25rem;
+    }
+    
+    &-item {
+        max-width: 70%;
+        
+        &>h3 {
+            font-size: 1.25rem;
+        }
+
+        &>ul>li {
+            padding-bottom: 1.25rem;
+            font-size: 1.125rem;
+        }
+    }
+}

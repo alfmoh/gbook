@@ -1,8 +1,5 @@
 .tp {
     position: relative;
-    margin-top: -100px;
-    /* display: grid;
-    grid-template-columns: 400px 1fr 1fr; */
 
     &__text-content {
         position: absolute;

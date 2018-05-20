@@ -516,11 +516,7 @@ img {
 
 .tp {
     position: relative;
-    margin-top: -100px;
 }
-
-/* display: grid;
-    grid-template-columns: 400px 1fr 1fr; */
 
 .tp__text-content {
         position: absolute;
@@ -539,6 +535,34 @@ img {
 
 .tp__subtitle {
     }
+
+.structure {
+    background: url("/assets/img/group-9.png") no-repeat center;
+    background-size: cover;
+    height:100vh;
+    color: #fff;
+}
+
+.structure-content {
+        padding-top:10%;
+        padding-left: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.25rem;
+    }
+
+.structure-item {
+        max-width: 70%;
+    }
+
+.structure-item>h3 {
+            font-size: 1.25rem;
+        }
+
+.structure-item>ul>li {
+            padding-bottom: 1.25rem;
+            font-size: 1.125rem;
+        }
 
 .page-section-be-part {
     background: linear-gradient(to right, #007fba, #02368d);
