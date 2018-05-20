@@ -367,6 +367,7 @@ img {
         font-weight: bold;
         margin-left: 70px;
         font-size: 28px;
+        cursor: pointer;
     }
 
 .s-header-nav {
@@ -384,6 +385,7 @@ img {
             margin: 0 20px;
             border: solid rgba(0,0,0,0);
             padding: 5px;
+            cursor: pointer;
         }
 
 .s-header-nav__list__item-wp {
@@ -471,7 +473,12 @@ img {
         height: 3.125rem;
         background-color:transparent;
         color: #fff;
+        padding-left: 10px;
     }
+
+.large-gbook__email__box:focus {
+            outline: none;
+        }
 
 .large-gbook__email__box::-webkit-input-placeholder {
             color: #fff;
@@ -529,7 +536,12 @@ img {
         height: 3.125rem;
         background-color:transparent;
         color: #fff;
+        padding-left: 10px;
     }
+
+.be-part__email__box:focus {
+            outline: none;
+        }
 
 .be-part__email__box::-webkit-input-placeholder {
             color: #fff;

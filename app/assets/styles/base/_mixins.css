@@ -25,6 +25,11 @@
         background-color:transparent;
         color: $mainWhite;
         @mixin-content;
+        padding-left: 10px;
+
+        &:focus {
+            outline: none;
+        }
 
         &::placeholder {
             color: $mainWhite;
