@@ -1,0 +1,74 @@
+.solution {
+    &-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background: url("/assets/img/about-copy.svg");
+        background-size: 100% auto;
+        color: $mainWhite;
+    }
+
+    &-text {
+        margin-left: 4.375rem;
+
+        &>h2 {
+            font-size: 2.25rem;
+        }
+    }
+
+    &-image {
+        grid-column: 2 / 3;
+        position: relative;
+        text-align: center;
+
+        &-fig {
+            position: absolute;
+            max-width: 43%;
+            transform: translate(-50%, 20%);
+        }
+
+        &-text1 {
+            position: absolute;
+            max-width: 8.125rem;
+            margin-top: 1.875rem;
+            margin-left: 25.69rem;
+            font-size: 0.8125rem;
+            text-align: center;
+        }
+
+        &-text2 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 10.94rem;
+            margin-left: 12rem;
+            font-size: 0.8125rem;
+            text-align: left;
+        }
+
+        &-text3 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 11rem;
+            margin-left: 40.19rem;
+            font-size: 0.8125rem;
+            text-align: left;
+        }
+
+        &-text4 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 23.31rem;
+            margin-left: 16.63rem;
+            font-size: 0.8125rem;
+            text-align: left;
+        }
+
+        &-text5 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 23.69rem;
+            margin-left: 36.44rem;
+            font-size: 0.8125rem;
+            text-align: left;
+        }
+    }
+}

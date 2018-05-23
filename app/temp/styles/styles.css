@@ -539,12 +539,10 @@ img {
 .structure {
     background: url("/assets/img/group-9.png") no-repeat center;
     background-size: cover;
-    height:100vh;
     color: #fff;
 }
 
 .structure-content {
-        padding-top:10%;
         padding-left: 50px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -562,6 +560,80 @@ img {
 .structure-item>ul>li {
             padding-bottom: 1.25rem;
             font-size: 1.125rem;
+        }
+
+.solution-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background: url("/assets/img/about-copy.svg");
+        background-size: 100% auto;
+        color: #fff;
+    }
+
+.solution-text {
+        margin-left: 4.375rem;
+    }
+
+.solution-text>h2 {
+            font-size: 2.25rem;
+        }
+
+.solution-image {
+        grid-column: 2 / 3;
+        position: relative;
+        text-align: center;
+    }
+
+.solution-image-fig {
+            position: absolute;
+            max-width: 43%;
+            -webkit-transform: translate(-50%, 20%);
+                    transform: translate(-50%, 20%);
+        }
+
+.solution-image-text1 {
+            position: absolute;
+            max-width: 8.125rem;
+            margin-top: 1.875rem;
+            margin-left: 25.69rem;
+            font-size: 0.8125rem;
+            text-align: center;
+        }
+
+.solution-image-text2 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 10.94rem;
+            margin-left: 12rem;
+            font-size: 0.8125rem;
+            text-align: left;
+        }
+
+.solution-image-text3 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 11rem;
+            margin-left: 40.19rem;
+            font-size: 0.8125rem;
+            text-align: left;
+        }
+
+.solution-image-text4 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 23.31rem;
+            margin-left: 16.63rem;
+            font-size: 0.8125rem;
+            text-align: left;
+        }
+
+.solution-image-text5 {
+            position: absolute;
+            max-width: 7.5rem;
+            margin-top: 23.69rem;
+            margin-left: 36.44rem;
+            font-size: 0.8125rem;
+            text-align: left;
         }
 
 .page-section-be-part {

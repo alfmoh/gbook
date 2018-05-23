@@ -1,11 +1,9 @@
 .structure {
     background: url("/assets/img/group-9.png") no-repeat center;
     background-size: cover;
-    height:100vh;
     color: $mainWhite;
 
     &-content {
-        padding-top:10%;
         padding-left: 50px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
