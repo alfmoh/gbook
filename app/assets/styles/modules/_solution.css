@@ -27,18 +27,18 @@
         }
 
         @mixin pentagonText &__text1, 
-            1.875rem, 25.69rem, 0.8125rem, center, 8.125rem { }
+            1.875%, 45.69%, 81.25%, 9.125% { }
 
         @mixin pentagonText &__text2, 
-            10.94rem, 12rem, 0.8125rem, left { }
+            18.94%, 22%, 81.25% { }
 
         @mixin pentagonText &__text3, 
-            11rem, 40.19rem, 0.8125rem, left { }
-
-        @mixin pentagonText &__text4, 
-            23.31rem, 16.21rem, 0.8125rem, center { }
+            19.5%, 68.19%, 81.25% { }    
             
+        @mixin pentagonText &__text4, 
+            40.31%, 27.9%, 81.25% { }
+
         @mixin pentagonText &__text5, 
-            23.69rem, 36.44rem, 0.8125rem, left { }
+            40.69%, 62.44%, 81.25% { }
     }
 }

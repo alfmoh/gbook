@@ -359,9 +359,8 @@ img {
     width: 100%;
     color: #fff;
     align-items: center;
+    background-color: rgba(0, 127, 186, 0.21);
 }
-
-/* background-color: rgba(0, 127, 186, 0.21); */
 
 .s-header__logo {
         font-weight: bold;
@@ -420,6 +419,11 @@ img {
                 transform: translateY(-50%);
         left: 0;
         text-align: center;
+        width: 100%;
+    }
+
+.large-gbook__img {
+        height: 100vh;
         width: 100%;
     }
 
@@ -593,47 +597,47 @@ img {
 
 .solution-image__text1 {
         position: absolute;
-        margin-top: 1.875rem;
-        margin-left: 25.69rem;
-        font-size: 0.8125rem;
-        text-align: center;
-        max-width: 8.125rem;
+        margin-top: 1.875%;
+        margin-left: 45.69%;
+        font-size: 81.25%;
+        text-align: left;
+        max-width: 9.125%;
     }
 
 .solution-image__text2 {
         position: absolute;
-        margin-top: 10.94rem;
-        margin-left: 12rem;
-        font-size: 0.8125rem;
+        margin-top: 18.94%;
+        margin-left: 22%;
+        font-size: 81.25%;
         text-align: left;
-        max-width: 7.5rem;
+        max-width: 12%;
     }
 
 .solution-image__text3 {
         position: absolute;
-        margin-top: 11rem;
-        margin-left: 40.19rem;
-        font-size: 0.8125rem;
+        margin-top: 19.5%;
+        margin-left: 68.19%;
+        font-size: 81.25%;
         text-align: left;
-        max-width: 7.5rem;
+        max-width: 12%;
     }
 
 .solution-image__text4 {
         position: absolute;
-        margin-top: 23.31rem;
-        margin-left: 16.21rem;
-        font-size: 0.8125rem;
-        text-align: center;
-        max-width: 7.5rem;
+        margin-top: 40.31%;
+        margin-left: 27.9%;
+        font-size: 81.25%;
+        text-align: left;
+        max-width: 12%;
     }
 
 .solution-image__text5 {
         position: absolute;
-        margin-top: 23.69rem;
-        margin-left: 36.44rem;
-        font-size: 0.8125rem;
+        margin-top: 40.69%;
+        margin-left: 62.44%;
+        font-size: 81.25%;
         text-align: left;
-        max-width: 7.5rem;
+        max-width: 12%;
     }
 
 .page-section-be-part {

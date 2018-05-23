@@ -6,7 +6,7 @@
     width: 100%;
     color: $mainWhite;
     align-items: center;
-    /* background-color: rgba(0, 127, 186, 0.21); */
+    background-color: rgba(0, 127, 186, 0.21);
 
     &__logo {
         font-weight: bold;

@@ -51,13 +51,13 @@
 
 @define-mixin pentagonText $itemName, 
     $marginTop, $marginLeft, $fontSize, 
-    $textAlign, $maxWidth: 7.5rem  {
+    $maxWidth: 12%  {
     $(itemName) {
         position: absolute;
         margin-top: $(marginTop);
         margin-left: $(marginLeft);
         font-size: $(fontSize);
-        text-align: $(textAlign);
+        text-align: left;
         max-width: $(maxWidth);
         @mixin-content;
     }
