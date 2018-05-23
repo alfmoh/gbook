@@ -20,55 +20,25 @@
         position: relative;
         text-align: center;
 
-        &-fig {
+        &__fig {
             position: absolute;
             max-width: 43%;
             transform: translate(-50%, 20%);
         }
 
-        &-text1 {
-            position: absolute;
-            max-width: 8.125rem;
-            margin-top: 1.875rem;
-            margin-left: 25.69rem;
-            font-size: 0.8125rem;
-            text-align: center;
-        }
+        @mixin pentagonText &__text1, 
+            1.875rem, 25.69rem, 0.8125rem, center, 8.125rem { }
 
-        &-text2 {
-            position: absolute;
-            max-width: 7.5rem;
-            margin-top: 10.94rem;
-            margin-left: 12rem;
-            font-size: 0.8125rem;
-            text-align: left;
-        }
+        @mixin pentagonText &__text2, 
+            10.94rem, 12rem, 0.8125rem, left { }
 
-        &-text3 {
-            position: absolute;
-            max-width: 7.5rem;
-            margin-top: 11rem;
-            margin-left: 40.19rem;
-            font-size: 0.8125rem;
-            text-align: left;
-        }
+        @mixin pentagonText &__text3, 
+            11rem, 40.19rem, 0.8125rem, left { }
 
-        &-text4 {
-            position: absolute;
-            max-width: 7.5rem;
-            margin-top: 23.31rem;
-            margin-left: 16.63rem;
-            font-size: 0.8125rem;
-            text-align: left;
-        }
-
-        &-text5 {
-            position: absolute;
-            max-width: 7.5rem;
-            margin-top: 23.69rem;
-            margin-left: 36.44rem;
-            font-size: 0.8125rem;
-            text-align: left;
-        }
+        @mixin pentagonText &__text4, 
+            23.31rem, 16.21rem, 0.8125rem, center { }
+            
+        @mixin pentagonText &__text5, 
+            23.69rem, 36.44rem, 0.8125rem, left { }
     }
 }
