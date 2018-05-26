@@ -1,0 +1,24 @@
+.establishment {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    &-text {
+        margin-left: 4.375rem;
+        color: $deeperGreen;
+        font-weight: 500;
+
+        &--highlight {
+            color: $lightGreen;
+        }
+
+        &>h2 {
+            font-size: 2.25rem;
+            color: $deeperGreen;
+        }
+
+    }
+
+    &-image {       
+        text-align: center;
+    }
+}

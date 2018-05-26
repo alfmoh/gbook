@@ -715,6 +715,31 @@ img {
                 max-width: 20%;
         }
 
+.establishment {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.establishment-text {
+        margin-left: 4.375rem;
+        color: #0068ac;
+        font-weight: 500;
+
+    }
+
+.establishment-text--highlight {
+            color: #27bbff;
+        }
+
+.establishment-text>h2 {
+            font-size: 2.25rem;
+            color: #0068ac;
+        }
+
+.establishment-image {       
+        text-align: center;
+    }
+
 .page-section-be-part {
     background: linear-gradient(to right, #007fba, #02368d);
     height: 10.125rem;
