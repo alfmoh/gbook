@@ -740,6 +740,43 @@ img {
         text-align: center;
     }
 
+.roadmap {
+    background-color: #1d416a;
+    color: #fff;
+}
+
+.roadmap>h2 {
+        font-size: 36px;
+        margin-left: 70px;
+        padding-top: 64px;
+    }
+
+.roadmap-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: -85px;
+    }
+
+.roadmap-content-top-text {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 160px -50px;
+        }
+
+.roadmap-content-top-text [class^="roadmap-content-top-text-"] {
+                max-width: 150px;
+            }
+
+.roadmap-content-bottom-text {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 280px;
+        }
+
+.roadmap-content-bottom-text [class^="roadmap-content-bottom-text-"] {
+                max-width: 150px;
+            }
+
 .page-section-be-part {
     background: linear-gradient(to right, #007fba, #02368d);
     height: 10.125rem;

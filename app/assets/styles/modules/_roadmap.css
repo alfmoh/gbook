@@ -1,0 +1,36 @@
+.roadmap {
+    background-color: #1d416a;
+    color: $mainWhite;
+    
+    &>h2 {
+        font-size: 36px;
+        margin-left: 70px;
+        padding-top: 64px;
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: -85px;
+        
+
+        &-top-text {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 160px -50px;
+
+            [class^="roadmap-content-top-text-"] {
+                max-width: 150px;
+            }
+        }
+
+        &-bottom-text {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 280px;
+            [class^="roadmap-content-bottom-text-"] {
+                max-width: 150px;
+            }
+        }
+    }
+}
