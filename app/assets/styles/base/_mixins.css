@@ -61,4 +61,19 @@
         max-width: $(maxWidth);
         @mixin-content;
     }
+
+@define-mixin changesText $itemName,
+    $fontSize, $left, $marginTop {
+
+        $(itemName) {
+            position: absolute;
+            color: $textGray;
+            font-size: $(fontSize);
+            left: $(left);
+            margin-top: $(marginTop);
+            @mixin-content;
+        }
+
+    }
+
 }

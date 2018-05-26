@@ -683,36 +683,36 @@ img {
         }
 
 .changes__image__clinics {
-            color: #a6a6a6;
             position: absolute;
-            font-size: 0.875rem;
+            color: #a6a6a6;
+            font-size: 82.05%;
             left: 29.9%;
             margin-top: -3.8%;
         }
 
 .changes__image__patients {
-            color: #a6a6a6;
             position: absolute;
-            font-size: 0.875rem;
+            color: #a6a6a6;
+            font-size: 82.05%;
             left: 65.5%;
             margin-top: -3.8%;
         }
 
 .changes__image__mis {
-            color: #a6a6a6;
             position: absolute;
-            font-size: 0.875rem;
+            color: #a6a6a6;
+            font-size: 82.05%;
             left: 38%;
             margin-top: 9.9%;
         }
 
 .changes__image__leadG {
-            color: #a6a6a6;
             position: absolute;
-            font-size: 0.875rem;
+            color: #a6a6a6;
+            font-size: 82.05%;
             left: 56.6%;
             margin-top: 8.9%;
-            max-width: 20%;
+                max-width: 20%;
         }
 
 .page-section-be-part {
