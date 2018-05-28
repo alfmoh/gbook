@@ -777,6 +777,54 @@ img {
                 max-width: 150px;
             }
 
+.team {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.team--heading {
+        font-size: 36px;
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: -5px;
+    }
+
+.team--staff-members {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        list-style: none;
+        justify-items: start;
+        grid-row-gap: 20px;
+        padding-left: 10px;
+    }
+
+.team>div>ul>li {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+.team>div>h3 {
+        color: #9b9b9b;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+.team-description {
+        margin-left: 20px;
+    }
+
+.team-description>h4 {
+            font-size: 22px;
+            margin-bottom: -25px;
+        }
+
+.team-description>h5 {
+            font-size: 20px;
+            color: #9b9b9b;
+        }
+
 .page-section-be-part {
     background: linear-gradient(to right, #007fba, #02368d);
     height: 10.125rem;
