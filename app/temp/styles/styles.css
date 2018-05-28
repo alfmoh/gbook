@@ -887,3 +887,24 @@ img {
         margin-left: -11.25rem;
         cursor: pointer;
     }
+
+.gbook-footer {
+    background-color: #02172e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 162px;
+    align-items: center;
+}
+
+.gbook-footer>p {
+        margin-left: 197px;
+        height: auto;
+    }
+
+.gbook-footer-logos {
+        display: flex;
+        margin-right: 123px;
+        justify-content: space-evenly;
+        width: 42%;
+    }

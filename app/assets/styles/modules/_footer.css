@@ -1,0 +1,20 @@
+.gbook-footer {
+    background-color: #02172e;
+    color: $mainWhite;
+    display: flex;
+    justify-content: space-between;
+    height: 162px;
+    align-items: center;
+
+    &>p {
+        margin-left: 197px;
+        height: auto;
+    }
+
+    &-logos {
+        display: flex;
+        margin-right: 123px;
+        justify-content: space-evenly;
+        width: 42%;
+    }
+}
