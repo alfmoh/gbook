@@ -425,6 +425,7 @@ img {
 .large-gbook__img {
         height: 100vh;
         width: 100%;
+        display: block;
     }
 
 .large-gbook__title {
@@ -521,6 +522,10 @@ img {
 .tp {
     position: relative;
 }
+
+.tp>picture>img {
+        display: block;
+    }
 
 .tp__text-content {
         position: absolute;
@@ -766,6 +771,14 @@ img {
 .roadmap-content-top-text [class^="roadmap-content-top-text-"] {
                 max-width: 150px;
             }
+
+.roadmap-content>div>div>h4:first-child {
+            color: #27bbff;
+        }
+
+.roadmap-content>div>div>h4:nth-child(2) {
+            color: #2a81bd;
+        }
 
 .roadmap-content-bottom-text {
             display: flex;

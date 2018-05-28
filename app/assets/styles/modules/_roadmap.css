@@ -24,6 +24,14 @@
             }
         }
 
+        &>div>div>h4:first-child {
+            color: $lightGreen;
+        }
+
+        &>div>div>h4:nth-child(2) {
+            color: #2a81bd;
+        }
+
         &-bottom-text {
             display: flex;
             justify-content: space-between;

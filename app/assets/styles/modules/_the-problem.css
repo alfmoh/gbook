@@ -1,6 +1,10 @@
 .tp {
     position: relative;
 
+    &>picture>img {
+        display: block;
+    }
+
     &__text-content {
         position: absolute;
         left: 0;
