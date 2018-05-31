@@ -1,11 +1,11 @@
 @define-mixin atSmall {
-    @media (min-width: 530px) {
+    @media (min-device-width : 320px) and (max-device-width : 907px) {
         @mixin-content;
     }
 }
 
 @define-mixin atMedium {
-    @media (min-width: 800px) {
+    @media (min-device-width : 908px) and (max-device-width : 1289px) {
         @mixin-content;
     }
 }
@@ -42,9 +42,16 @@
 
 @define-mixin inputBoxButton $sectionType {
     $(sectionType)__button {
-        margin-bottom: -0.9rem;
-        margin-left: -11.25rem;
+        border-radius: 100px;
         cursor: pointer;
+        width: 100%;
+        height: 3.125rem;
+        color: $mainWhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to left, #2977fc, #27bbff);
+        margin-top: 20px;
         @mixin-content;
     }
 }

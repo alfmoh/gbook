@@ -1,20 +1,50 @@
 .page-section-be-part {
     background: linear-gradient(to right, #007fba, #02368d);
-    height: 10.125rem;
+    height:167px;
     text-align: center;
-    overflow: auto;
 }
 
 .be-part {
     &__email {
-        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 401px;
+        margin: 1.5rem auto 0;
 
         &__heading {
             color: $mainWhite;
         }
 
-        @mixin inputBox & {}
-        @mixin inputBoxButton & { }
+        @mixin inputBox & { 
+
+            @mixin atSmall {
+                max-width: 310px;
+                height: 40px;
+            }
+
+        }
+        @mixin inputBoxButton & {
+            
+
+            @mixin atLarge {
+                width: 168px;
+                height: 40px;
+                margin-top: -47px;
+                margin-left: auto;
+            }
+            @mixin atMedium {
+                max-width: 168px;
+                height: 40px;
+                margin-top: -47px;
+                margin-left: auto;
+            }
+
+            @mixin atSmall {
+                max-width: 310px;
+                height: 40px;
+            }
+         }
     }
 
 }
