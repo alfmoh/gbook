@@ -681,15 +681,6 @@ img {
             text-align: center;
         }
 
-/*Minor hack for iPad*/
-
-@media (min-device-width : 768px) and (max-device-height : 1024px) {
-
-.tp-text-content-text-block {
-                margin-top: -12px
-        }
-            }
-
 .tp-text-content-text-block__title {
                 font-size: 26px;
             }
@@ -740,6 +731,20 @@ img {
             padding-bottom: 1.25rem;
             font-size: 1.125rem;
         }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+        .structure-content {
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            margin-left: 30px;
+            max-width: 280px;
+        }
+    
+        .structure-item {
+            margin-bottom: 55px;
+        }
+    }
 
 .solution-content {
         display: grid;

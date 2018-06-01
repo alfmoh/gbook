@@ -17,11 +17,6 @@
             margin:  auto;
             text-align: center;
 
-            /*Minor hack for iPad*/
-            @media (min-device-width : 768px) and (max-device-height : 1024px) {
-                margin-top: -12px;
-            }
-
             &__title {
                 font-size: 26px;
 
