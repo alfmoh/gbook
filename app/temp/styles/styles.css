@@ -752,6 +752,20 @@ img {
         background: url("/assets/img/about-copy.svg");
         background-size: 100% auto;
         color: #fff;
+        height: 100%;
+
+    }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+
+.solution-content {
+            /* display: flex;
+            flex-direction: column; */
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr
+            /* background: url("/assets/img/solution-background-mobile.svg"); */
+
+    }
     }
 
 .solution-text {
@@ -763,61 +777,140 @@ img {
         }
 
 .solution-image {
-        grid-column: 2 / 3;
         position: relative;
-        text-align: center;
+        height: 100%;
     }
+
+.solution-image-image-and-text {
+
+            height: inherit;
+            max-width: 478px;
+            margin: 0 auto;
+            position: relative;
+        }
 
 .solution-image__fig {
             position: absolute;
-            max-width: 43%;
-            -webkit-transform: translate(-50%, 20%);
-                    transform: translate(-50%, 20%);
+
+            max-width: 100%;
         }
+
+@media (min-width: 1290px) {
+
+.solution-image__fig {
+                margin-top: 95px;
+                max-width: 335px;
+                /* width: 80%; */
+                /* margin: 10% ; */
+                margin-left: 64px
+        }
+    }
+
+@media (min-device-width : 908px) and (max-device-width : 1289px) {
+
+.solution-image__fig {
+                margin-top: 95px;
+                max-width: 335px;
+                /* width: 80%; */
+                /* margin: 10% ; */
+                margin-left: 64px
+        }
+    }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+
+.solution-image__fig {
+                /* max-width: 100%; */
+                /* margin: 50% 0; */
+                margin-top: 70px;
+                /* width: 300px; */
+                max-width: 300px;
+                margin-left: 10%
+        }
+    }
 
 .solution-image__text1 {
         position: absolute;
-        margin-top: 1.875%;
-        margin-left: 46.69%;
-        font-size: 81.25%;
+        margin-top: 28.75px;
+        margin-left: 203.69px;
+        font-size: 71.25%;
         text-align: left;
-        max-width: 9.125%;
+        max-width: 91.25px;
+    }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+
+.solution-image__text1 {
+                    margin-top: 10.75px;
+                    margin-left: 180px;
+    }
     }
 
 .solution-image__text2 {
         position: absolute;
-        margin-top: 18.94%;
-        margin-left: 22%;
-        font-size: 81.25%;
+        margin-top: 163.4px;
+        margin-left: 5px;
+        font-size: 71.25%;
         text-align: left;
-        max-width: 12%;
+        max-width: 110px;
+    }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+
+.solution-image__text2 {
+                    margin-left: 2px;
+                    margin-top: 145px;
+    }
     }
 
 .solution-image__text3 {
         position: absolute;
-        margin-top: 19.5%;
-        margin-left: 68.19%;
-        font-size: 81.25%;
+        margin-top: 158px;
+        margin-left: 368.19px;
+        font-size: 71.25%;
         text-align: left;
-        max-width: 12%;
+        max-width: 91.25px;
+    }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+
+.solution-image__text3 {
+                width: 150px;
+                margin-left: 332px;
+                margin-top: 135px;
+    }
     }
 
 .solution-image__text4 {
         position: absolute;
-        margin-top: 40.31%;
-        margin-left: 27.9%;
-        font-size: 81.25%;
+        margin-top: 338.31px;
+        margin-left: 54.9px;
+        font-size: 71.25%;
         text-align: left;
-        max-width: 12%;
+        max-width: 91.25px;
+    }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+
+.solution-image__text4 {
+                margin-top: 310px;
+    }
     }
 
 .solution-image__text5 {
         position: absolute;
-        margin-top: 40.69%;
-        margin-left: 62.44%;
-        font-size: 81.25%;
+        margin-top: 349.31px;
+        margin-left: 329.44px;
+        font-size: 71.25%;
         text-align: left;
-        max-width: 12%;
+        max-width: 91.25px;
+    }
+
+@media (min-device-width : 320px) and (max-device-width : 907px) {
+
+.solution-image__text5 {
+                    margin-top: 310px;
+    }
     }
 
 .changes {

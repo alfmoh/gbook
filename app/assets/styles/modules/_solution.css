@@ -5,6 +5,16 @@
         background: url("/assets/img/about-copy.svg");
         background-size: 100% auto;
         color: $mainWhite;
+        height: 100%;
+
+        @mixin atSmall {
+            /* display: flex;
+            flex-direction: column; */
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            /* background: url("/assets/img/solution-background-mobile.svg"); */
+        }
+
     }
 
     &-text {
@@ -16,29 +26,85 @@
     }
 
     &-image {
-        grid-column: 2 / 3;
         position: relative;
-        text-align: center;
+        height: 100%;
+
+        
+        &-image-and-text {
+
+            height: inherit;
+            max-width: 478px;
+            margin: 0 auto;
+            position: relative;
+        }
 
         &__fig {
             position: absolute;
-            max-width: 43%;
-            transform: translate(-50%, 20%);
-        }
 
+            max-width: 100%;
+            
+            @mixin atLarge {
+                margin-top: 95px;
+                max-width: 335px;
+                /* width: 80%; */
+                /* margin: 10% ; */
+                margin-left: 64px;
+            }
+            @mixin atMedium {
+                margin-top: 95px;
+                max-width: 335px;
+                /* width: 80%; */
+                /* margin: 10% ; */
+                margin-left: 64px;
+            }
+
+            @mixin atSmall {
+                /* max-width: 100%; */
+                /* margin: 50% 0; */
+                margin-top: 70px;
+                /* width: 300px; */
+                max-width: 300px;
+                margin-left: 10%;
+            }
+        }
+        
         @mixin pentagonText &__text1, 
-            1.875%, 46.69%, 81.25%, 9.125% { }
+            28.75px, 203.69px, 71.25%, 91.25px { 
+                @mixin atSmall {
+                    margin-top: 10.75px;
+                    margin-left: 180px;
+                }
+            }
 
         @mixin pentagonText &__text2, 
-            18.94%, 22%, 81.25% { }
+            163.4px, 5px, 71.25%, 110px {
+                @mixin atSmall {
+                    margin-left: 2px;
+                    margin-top: 145px;
+                }
+             }
 
         @mixin pentagonText &__text3, 
-            19.5%, 68.19%, 81.25% { }    
+        158px, 368.19px, 71.25%, 91.25px { 
+            @mixin atSmall {
+                width: 150px;
+                margin-left: 332px;
+                margin-top: 135px;
+            }
+        }    
             
         @mixin pentagonText &__text4, 
-            40.31%, 27.9%, 81.25% { }
+        338.31px, 54.9px, 71.25%, 91.25px { 
+            @mixin atSmall {
+                margin-top: 310px;
+            }
+        }
 
         @mixin pentagonText &__text5, 
-            40.69%, 62.44%, 81.25% { }
+            349.31px, 329.44px, 71.25%, 91.25px {
+                @mixin atSmall {
+                    margin-top: 310px;
+                }
+             }
     }
 }
