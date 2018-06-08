@@ -1056,14 +1056,46 @@ img {
 
 .establishment {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
 }
 
+@media (min-width: 1290px) {
+
+.establishment {
+        grid-template-columns: 1fr 2fr
+}
+    }
+
 .establishment-text {
-        margin-left: 4.375rem;
         color: #0068ac;
         font-weight: 500;
+        max-width: 75%;
 
+    }
+
+@media (min-width : 908px) and (max-width : 1289px) {
+
+.establishment-text {
+            margin: 0 auto
+
+    }
+    }
+
+@media (min-width : 200px) and (max-width : 907px) {
+
+.establishment-text {
+            margin: 0 auto
+
+    }
+    }
+
+@media (min-width: 1290px) {
+
+.establishment-text {
+            max-width: 100%;
+            margin-left: 4.375rem
+
+    }
     }
 
 .establishment-text--highlight {

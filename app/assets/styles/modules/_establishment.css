@@ -1,11 +1,28 @@
 .establishment {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
+
+    @mixin atLarge {
+        grid-template-columns: 1fr 2fr;
+    }
 
     &-text {
-        margin-left: 4.375rem;
         color: $deeperGreen;
         font-weight: 500;
+        max-width: 75%;
+
+        @mixin atMedium {
+            margin: 0 auto;
+        }
+
+        @mixin atSmall {
+            margin: 0 auto;
+        }
+
+        @mixin atLarge {
+            max-width: 100%;
+            margin-left: 4.375rem;
+        }
 
         &--highlight {
             color: $lightGreen;
