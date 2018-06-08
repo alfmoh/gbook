@@ -1,11 +1,11 @@
 @define-mixin atSmall {
-    @media (min-device-width : 320px) and (max-device-width : 907px) {
+    @media (min-width : 200px) and (max-width : 907px) {
         @mixin-content;
     }
 }
 
 @define-mixin atMedium {
-    @media (min-device-width : 908px) and (max-device-width : 1289px) {
+    @media (min-width : 908px) and (max-width : 1289px) {
         @mixin-content;
     }
 }
@@ -70,13 +70,13 @@
     }
 
 @define-mixin changesText $itemName,
-    $fontSize, $left, $marginTop {
+    $fontSize, $leftt, $marginTop {
 
         $(itemName) {
             position: absolute;
             color: $textGray;
             font-size: $(fontSize);
-            left: $(left);
+            margin-left: $(leftt);
             margin-top: $(marginTop);
             @mixin-content;
         }

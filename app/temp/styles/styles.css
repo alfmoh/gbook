@@ -410,7 +410,7 @@ img {
                 border-width: 1px;
             }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .s-header-nav__list {
             display: none
@@ -469,7 +469,7 @@ img {
               transition: transform .3s ease-out, -webkit-transform .3s ease-out;
           }
 
-@media (min-device-width : 908px) and (max-device-width : 1289px) {
+@media (min-width : 908px) and (max-width : 1289px) {
 
 .s-header__menu-icon {
           display: none
@@ -509,7 +509,7 @@ img {
         font-size: 1.5rem;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .large-gbook__title {
             font-size: 1.5rem;
@@ -518,7 +518,7 @@ img {
     }
     }
 
-@media (min-device-width : 908px) and (max-device-width : 1289px) {
+@media (min-width : 908px) and (max-width : 1289px) {
 
 .large-gbook__title {
             font-size: 2.5rem
@@ -540,7 +540,7 @@ img {
         margin: 0 auto;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .large-gbook__subtitle {
             font-size: 0.9375rem;
@@ -561,7 +561,7 @@ img {
             color: #fff;
         }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .large-gbook__email__heading {
                 font-size: 0.75rem
@@ -578,7 +578,7 @@ img {
         padding-left: 10px;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .large-gbook__email__box {
                 max-width: 310px;
@@ -641,7 +641,7 @@ img {
     }
     }
 
-@media (min-device-width : 908px) and (max-device-width : 1289px) {
+@media (min-width : 908px) and (max-width : 1289px) {
 
 .large-gbook__email__button {
                 max-width: 168px;
@@ -651,7 +651,7 @@ img {
     }
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .large-gbook__email__button {
                 max-width: 310px;
@@ -685,11 +685,12 @@ img {
                 font-size: 26px;
             }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .tp-text-content-text-block__title {
                     font-size: 22px;
-                    width: 327px
+                    width: 327px;
+                    margin-top: -3px
             }
     }
 
@@ -698,11 +699,12 @@ img {
                 max-width: 440px;
             }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .tp-text-content-text-block__subtitle {
                     font-size: 16px;
-                    width: 310px
+                    width: 310px;
+                    margin-top: -10px
             }
     }
 
@@ -719,27 +721,31 @@ img {
         grid-gap: 1.25rem;
     }
 
-.structure-item {
+.structure-content-item {
         max-width: 70%;
     }
 
-.structure-item>h3 {
+.structure-content-item>h3 {
             font-size: 1.25rem;
         }
 
-.structure-item>ul>li {
+.structure-content-item>ul>li {
             padding-bottom: 1.25rem;
             font-size: 1.125rem;
         }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
         .structure-content {
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             font-size: 18px;
-            margin-left: 30px;
-            max-width: 280px;
         }
+            
+            .structure-content-item {
+                max-width: 280px;
+                margin-left: 30px;
+                padding-left: 20px;
+            }
     
         .structure-item {
             margin-bottom: 55px;
@@ -756,7 +762,7 @@ img {
 
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .solution-content {
             /* display: flex;
@@ -806,7 +812,7 @@ img {
         }
     }
 
-@media (min-device-width : 908px) and (max-device-width : 1289px) {
+@media (min-width : 908px) and (max-width : 1289px) {
 
 .solution-image__fig {
                 margin-top: 95px;
@@ -817,7 +823,7 @@ img {
         }
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .solution-image__fig {
                 /* max-width: 100%; */
@@ -838,7 +844,7 @@ img {
         max-width: 91.25px;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .solution-image__text1 {
                     margin-top: 10.75px;
@@ -855,7 +861,7 @@ img {
         max-width: 110px;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .solution-image__text2 {
                     margin-left: 2px;
@@ -872,7 +878,7 @@ img {
         max-width: 91.25px;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .solution-image__text3 {
                 width: 150px;
@@ -890,7 +896,7 @@ img {
         max-width: 91.25px;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .solution-image__text4 {
                 margin-top: 310px;
@@ -906,7 +912,7 @@ img {
         max-width: 91.25px;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .solution-image__text5 {
                     margin-top: 310px;
@@ -917,11 +923,51 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #f5f5f5;
+    height: 100%;
 }
+
+@media (min-width : 908px) and (max-width : 1289px) {
+
+.changes {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr
+}
+    }
+
+@media (min-width : 200px) and (max-width : 907px) {
+
+.changes {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr
+}
+    }
 
 .changes__text {
         margin-left: 70px;
+        max-width: 70%;
+        margin: 0 auto;
+        
     }
+
+@media (min-width: 1290px) {
+
+.changes__text {
+            max-width: 90%;
+            margin-right: -10px
+        
+    }
+    }
+
+.changes__text-imgs {
+            display: flex;
+    
+        }
+
+.changes__text-imgs__but-before {}
+
+.changes__text-imgs__but-after {
+                margin-left: -168px;
+            }
 
 .changes__text>h2 {
             max-width: 80%;
@@ -929,64 +975,84 @@ img {
             color: #4a90e2;
         }
 
-.changes__text>img {
-            -webkit-transform: translateY(-50%);
-                    transform: translateY(-50%);
-        }
-
 .changes__text>ul>li {
             margin-bottom: 15px;
         }
 
-.changes__text__but-after {}
-
-.changes__text__but-before {
-            margin-bottom: -52px;
+.changes__image-content {
+            height: 400px;
+            max-width: 478px;
+            margin: 0 auto;
+            position: relative;
         }
 
-.changes__image {       
-        text-align: center;
-        position: relative;
+.changes__image-content__fig {
+            position: absolute;
+            height: inherit;
+
+            max-width: 100%;
+        }
+
+.changes__image-content__clinics {
+            position: absolute;
+            color: #a6a6a6;
+            font-size: 13px;
+            margin-left: 10px;
+            margin-top: 226.8px;
+        }
+
+@media (min-width : 200px) and (max-width : 907px) {
+
+.changes__image-content__clinics {
+                    font-size: 11px;
+        }
     }
 
-.changes__image__fig {
-            max-width: 40%;
-            -webkit-transform: translateY(30%);
-                    transform: translateY(30%);
-        }
-
-.changes__image__clinics {
+.changes__image-content__patients {
             position: absolute;
             color: #a6a6a6;
-            font-size: 82.05%;
-            left: 29.9%;
-            margin-top: -3.8%;
+            font-size: 13px;
+            margin-left: 89%;
+            margin-top: 226.8px;
         }
 
-.changes__image__patients {
+@media (min-width : 200px) and (max-width : 907px) {
+
+.changes__image-content__patients {
+                    font-size: 11px;
+        }
+    }
+
+.changes__image-content__mis {
             position: absolute;
             color: #a6a6a6;
-            font-size: 82.05%;
-            left: 65.5%;
-            margin-top: -3.8%;
+            font-size: 13px;
+            margin-left: 23.5%;
+            margin-top: 377px;
         }
 
-.changes__image__mis {
-            position: absolute;
-            color: #a6a6a6;
-            font-size: 82.05%;
-            left: 38%;
-            margin-top: 9.9%;
-        }
+@media (min-width : 200px) and (max-width : 907px) {
 
-.changes__image__leadG {
+.changes__image-content__mis {
+                    font-size: 11px;
+        }
+    }
+
+.changes__image-content__leadG {
             position: absolute;
             color: #a6a6a6;
-            font-size: 82.05%;
-            left: 56.6%;
-            margin-top: 8.9%;
+            font-size: 13px;
+            margin-left: 84%;
+            margin-top: 317px;
                 max-width: 20%;
         }
+
+@media (min-width : 200px) and (max-width : 907px) {
+
+.changes__image-content__leadG {
+                    font-size: 11px;
+        }
+    }
 
 .establishment {
     display: grid;
@@ -1134,7 +1200,7 @@ img {
         padding-left: 10px;
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .be-part__email__box {
                 max-width: 310px;
@@ -1197,7 +1263,7 @@ img {
     }
     }
 
-@media (min-device-width : 908px) and (max-device-width : 1289px) {
+@media (min-width : 908px) and (max-width : 1289px) {
 
 .be-part__email__button {
                 max-width: 168px;
@@ -1207,7 +1273,7 @@ img {
     }
     }
 
-@media (min-device-width : 320px) and (max-device-width : 907px) {
+@media (min-width : 200px) and (max-width : 907px) {
 
 .be-part__email__button {
                 max-width: 310px;
