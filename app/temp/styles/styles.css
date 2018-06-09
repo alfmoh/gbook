@@ -423,7 +423,7 @@ img {
         height: 19px;
         position: absolute;
           z-index: 10;
-        top: 10px;
+        top: 30px;
         right: 10px;
       }
 
@@ -1365,19 +1365,24 @@ img {
     background-color: #02172e;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 162px;
     align-items: center;
 }
 
+@media (min-width : 200px) and (max-width : 907px) {
+
+.gbook-footer {
+        flex-direction: column
+}
+    }
+
 .gbook-footer>p {
-        margin-left: 197px;
         height: auto;
     }
 
 .gbook-footer-logos {
         display: flex;
-        margin-right: 123px;
         justify-content: space-evenly;
-        width: 42%;
+        max-width: 42%;
     }

@@ -65,7 +65,7 @@
         height: 19px;
         position: absolute;
           z-index: 10;
-        top: 10px;
+        top: 30px;
         right: 10px;
           
           &::before {

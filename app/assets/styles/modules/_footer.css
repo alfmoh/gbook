@@ -2,19 +2,21 @@
     background-color: #02172e;
     color: $mainWhite;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 162px;
     align-items: center;
 
+    @mixin atSmall {
+        flex-direction: column;
+    }
+
     &>p {
-        margin-left: 197px;
         height: auto;
     }
 
     &-logos {
         display: flex;
-        margin-right: 123px;
         justify-content: space-evenly;
-        width: 42%;
+        max-width: 42%;
     }
 }
