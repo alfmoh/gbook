@@ -1116,6 +1116,13 @@ img {
     color: #fff;
 }
 
+@media (min-width : 200px) and (max-width : 907px) {
+
+.roadmap {
+        display: none
+}
+    }
+
 .roadmap>h2 {
         font-size: 36px;
         margin-left: 70px;
@@ -1125,18 +1132,36 @@ img {
 .roadmap-content {
         display: flex;
         flex-direction: column;
-        margin-left: -85px;
     }
+
+.roadmap-content-image {
+            margin-left: 150px;
+        }
 
 .roadmap-content-top-text {
             display: flex;
             justify-content: space-between;
-            margin: 0 160px -50px;
+            margin: 0 110px -50px;
         }
 
 .roadmap-content-top-text [class^="roadmap-content-top-text-"] {
                 max-width: 150px;
             }
+
+@media (min-width: 1290px) {
+
+.roadmap-content-top-text-5 {
+                    margin-right: 25px
+            }
+    }
+
+@media (min-width : 908px) and (max-width : 1289px) {
+
+.roadmap-content-top-text {
+                margin-right: 2%;
+                font-size: 14px
+        }
+    }
 
 .roadmap-content>div>div>h4:first-child {
             color: #27bbff;
@@ -1149,12 +1174,35 @@ img {
 .roadmap-content-bottom-text {
             display: flex;
             justify-content: space-between;
-            margin: 0 280px;
+            margin: 0 170px;
+
         }
 
 .roadmap-content-bottom-text [class^="roadmap-content-bottom-text-"] {
                 max-width: 150px;
             }
+
+@media (min-width : 908px) and (max-width : 1289px) {
+
+.roadmap-content-bottom-text {
+                font-size: 14px
+
+        }
+    }
+
+@media (min-width : 908px) and (max-width : 1289px) {
+
+.roadmap-content-bottom-text-4 {
+                    margin-right: -100px
+            }
+    }
+
+@media (min-width: 1290px) {
+
+.roadmap-content-bottom-text-4 {
+                    margin-right: 75px
+            }
+    }
 
 .team {
     display: flex;

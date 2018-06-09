@@ -1,6 +1,10 @@
 .roadmap {
     background-color: #1d416a;
     color: $mainWhite;
+
+    @mixin atSmall {
+        display: none;
+    }
     
     &>h2 {
         font-size: 36px;
@@ -11,16 +15,30 @@
     &-content {
         display: flex;
         flex-direction: column;
-        margin-left: -85px;
+
+        &-image {
+            margin-left: 150px;
+        }
         
 
         &-top-text {
             display: flex;
             justify-content: space-between;
-            margin: 0 160px -50px;
+            margin: 0 110px -50px;
 
             [class^="roadmap-content-top-text-"] {
                 max-width: 150px;
+            }
+
+            &-5 {
+                @mixin atLarge {
+                    margin-right: 25px;
+                }
+            }
+
+            @mixin atMedium {
+                margin-right: 2%;
+                font-size: 14px;
             }
         }
 
@@ -35,10 +53,24 @@
         &-bottom-text {
             display: flex;
             justify-content: space-between;
-            margin: 0 280px;
+            margin: 0 170px;
             [class^="roadmap-content-bottom-text-"] {
                 max-width: 150px;
             }
+
+            @mixin atMedium {
+                font-size: 14px;
+            }
+
+            &-4 {
+                @mixin atMedium {
+                    margin-right: -100px;
+                }
+                @mixin atLarge {
+                    margin-right: 75px;
+                }
+            }
+
         }
     }
 }
