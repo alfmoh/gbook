@@ -84,3 +84,13 @@
     }
 
 }
+
+
+@define-mixin headerItem $itemName, $borderRadius: 25px
+    $(itemName) {
+        border: solid;
+        padding: 10px 20px;
+        border-width: 1px;
+        border-radius: $(borderRadius);
+        @mixin-content;
+    }

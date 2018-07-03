@@ -7,12 +7,25 @@
     color: $mainWhite;
     align-items: center;
     background-color: rgba(0, 127, 186, 0.21);
+    transition: background-color .3s ease-out;
+
+    @mixin atSmall {
+        &--invisible {
+            background: #016BAD;
+        }
+    }
 
     &__logo {
         font-weight: bold;
         margin-left: 70px;
         font-size: 28px;
         cursor: pointer;
+
+        @mixin atSmall {
+            &--invisible {
+                display: none;
+            }
+        }
     }
     
     &-nav {
@@ -24,37 +37,32 @@
         list-style: none;
         justify-content: flex-end;
         flex-flow: wrap;
-
+        
         &__item {
             margin: 0 20px;
             border: solid rgba(0,0,0,0);
             padding: 5px;
             cursor: pointer;
 
-            &-wp {
-                border: solid;
-                padding: 10px 20px;
-                border-radius: 25px;
-                border-width: 1px;
-            }
-
-            &-pre {
-                border: solid;
-                padding: 10px 20px;
-                border-radius: 25px;
-                border-width: 1px;
-            }
-
-            &-en {
-                border: solid;
-                padding: 10px 20px;
-                border-radius: 10px;
-                border-width: 1px;
+            @mixin headerItem &-wp, 25px {
+                
+                @mixin atSmall {
+                    min-width: 20%;
+                    margin: 5px auto;
+                    animation: zoomer .5s ease-in-out;
+                }
             }
         }
 
         @mixin atSmall {
             display: none;
+
+            &--invisible {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-right: 50px;
+            }
         }
 
     }
@@ -64,9 +72,10 @@
         width: 20px;
         height: 19px;
         position: absolute;
-          z-index: 10;
+        z-index: 10;
         top: 30px;
         right: 10px;
+        cursor: pointer;
           
           &::before {
               content: "";
@@ -100,6 +109,21 @@
               transform-origin: 0 100%;
               transition: transform .3s ease-out;
           }
+
+          &--close-x {
+            &::before {
+                transform: rotate(45deg) scaleX(1.25);
+            }
+            
+            .s-header__menu-icon__middle {
+                opacity: 0;
+                transform: scaleX(0);
+            }
+            
+            &::after {
+                transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+            }
+        }
     
         @mixin atMedium {
           display: none;
@@ -109,4 +133,14 @@
         }
       }
     
+}
+
+@keyframes zoomer {
+    0% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
