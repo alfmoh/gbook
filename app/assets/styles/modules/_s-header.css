@@ -20,7 +20,8 @@
         margin-left: 70px;
         font-size: 28px;
         cursor: pointer;
-
+        animation: enter .5s ease-in-out;
+        
         @mixin atSmall {
             &--invisible {
                 display: none;
@@ -43,13 +44,22 @@
             border: solid rgba(0,0,0,0);
             padding: 5px;
             cursor: pointer;
+            transition: all .4s ease-in-out;
+
+            &:hover {
+                background-color: #FFF;
+                color: #016BAD;
+                transform: scale(1.1);
+                border: none;
+                font-size: large;
+            }
 
             @mixin headerItem &-wp, 25px {
                 
                 @mixin atSmall {
                     min-width: 20%;
                     margin: 5px auto;
-                    animation: zoomer .5s ease-in-out;
+                    animation: zoom-in .5s ease-in-out;
                 }
             }
         }
@@ -135,12 +145,21 @@
     
 }
 
-@keyframes zoomer {
+@keyframes zoom-in {
     0% {
         transform: scale(1.3);
     }
 
     100% {
         transform: scale(1);
+    }
+}
+@keyframes enter {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
