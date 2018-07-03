@@ -1,5 +1,5 @@
 .structure {
-    background: url("../../assets/img/group-9.png") no-repeat center;
+    background: url("/assets/img/group-9.png") no-repeat center;
     background-size: cover;
     color: $mainWhite;
 
