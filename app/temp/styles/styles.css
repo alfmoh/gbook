@@ -846,7 +846,7 @@ img {
 .solution-content {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        background: url("../../assets/img/about-copy.svg");
+        background: url("../../assets/img/about-copy.png");
         background-size: 100% auto;
         color: #fff;
         height: 100%;
